@@ -14,7 +14,7 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 # TODO 2: Use add_subdirectory() to add MathFunctions to this project
 
 # add the executable
-add_executable(Tutorial tutorial.cxx)
+add_executable(Tutorial tutorial.cpp)
 
 # TODO 3: Use target_link_libraries to link the library to our executable
 

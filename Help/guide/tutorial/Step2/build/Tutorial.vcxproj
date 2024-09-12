@@ -328,7 +328,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step2\tutorial.cxx" />
+    <ClCompile Include="D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step2\tutorial.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step2\build\ZERO_CHECK.vcxproj">
