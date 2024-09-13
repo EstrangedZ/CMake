@@ -1,0 +1,8 @@
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+
+  1>Checking Build System
+  SqrtLibrary.vcxproj -> D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\MathFunctions\Debug\SqrtLibrary.lib
+  MathFunctions.vcxproj -> D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\MathFunctions\Debug\MathFunctions.lib
+  Building Custom Rule D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step6/CMakeLists.txt
+  Tutorial.vcxproj -> D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe
+  Building Custom Rule D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step6/CMakeLists.txt

@@ -1,0 +1,10 @@
+^D:\0 - DOCUMENTS\TEST\C++TEST\CMAKE TEST3\CMAKE\HELP\GUIDE\TUTORIAL\STEP8\BUILD\CMAKEFILES\D4FD343C0168AC589CA9559FB54D2A8F\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step8" "-BD:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step8/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step8/build/Tutorial.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

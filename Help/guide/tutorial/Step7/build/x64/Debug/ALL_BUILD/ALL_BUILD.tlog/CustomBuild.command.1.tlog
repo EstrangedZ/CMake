@@ -1,0 +1,10 @@
+^D:\0 - DOCUMENTS\TEST\C++TEST\CMAKE TEST3\CMAKE\HELP\GUIDE\TUTORIAL\STEP7\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7" "-BD:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/build" --check-stamp-file "D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

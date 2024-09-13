@@ -1,0 +1,5 @@
+D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/./test/lib/MathFunctions.lib
+D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/./test/lib/SqrtLibrary.lib
+D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/./test/include/MathFunctions.h
+D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/./test/bin/Tutorial.exe
+D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step7/./test/include/TutorialConfig.h

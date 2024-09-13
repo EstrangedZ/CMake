@@ -1,4 +1,4 @@
-add_library(MathFunctions MathFunctions.cxx)
+add_library(MathFunctions MathFunctions.cpp)
 
 # state that anybody linking to us needs to include the current source dir
 # to find MathFunctions.h, while we don't.
@@ -13,7 +13,7 @@ if (USE_MYMATH)
 
   # library that just does sqrt
   add_library(SqrtLibrary STATIC
-              mysqrt.cxx
+              mysqrt.cpp
               )
 
   # link SqrtLibrary to tutorial_compiler_flags
@@ -30,6 +30,6 @@ set(installable_libs MathFunctions tutorial_compiler_flags)
 if(TARGET SqrtLibrary)
   list(APPEND installable_libs SqrtLibrary)
 endif()
-install(TARGETS ${installable_libs} DESTINATION lib)
+install(TARGETS ${installable_libs} DESTINATION "lib")
 # install include headers
-install(FILES MathFunctions.h DESTINATION include)
+install(FILES MathFunctions.h DESTINATION "include")

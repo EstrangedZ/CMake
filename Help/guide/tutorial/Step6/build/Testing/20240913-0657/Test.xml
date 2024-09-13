@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20240913-0657-Experimental"
+	Name="DESKTOP-IG7UHQM"
+	Generator="ctest-3.30.3"
+	CompilerName="D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.41.34120.0"
+	OSName="Windows"
+	Hostname="DESKTOP-IG7UHQM"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="37371"
+	TotalPhysicalMemory="32507"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2995"
+	>
+	<Testing>
+		<StartDateTime>Sep 13 14:57 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartTestTime>1726210658</StartTestTime>
+		<TestList>
+			<Test>./Runs</Test>
+			<Test>./Usage</Test>
+			<Test>./Comp4</Test>
+			<Test>./Comp9</Test>
+			<Test>./Comp5</Test>
+			<Test>./Comp7</Test>
+			<Test>./Comp25</Test>
+			<Test>./Comp-25</Test>
+			<Test>./Comp0.0001</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Runs</Name>
+			<Path>.</Path>
+			<FullName>./Runs</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0056878</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwMlUoyVdISlUwNOZyxi1rrmdiZmhqgk+JqZ6JgZkBXlNM9QwMTY1MCSgBAiO8SgZEMiQjFShcmliUqlCUnw+TzSwGSgEABxhrWQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Usage</Name>
+			<Path>.</Path>
+			<FullName>./Usage</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0048858</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[Usage:.*number]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1jTsOwjAQBfucYvuIbBASRVpc0FAF6O3kybLwJ7J3JY4PCK5ANSNNMWbikXZkyqIJWRoLmvDS918m+wB99MCny9v5jLix17CCRaXUYCPPgu3ITkNc2cCp5+svDXiC7qgtlEz7YexuzXpMZP5/zZocavcC3epOEA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp4</Name>
+			<Path>.</Path>
+			<FullName>./Comp4</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "4"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0047053</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[4 is 2]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "4"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwUSjJV0hKVTDSM+VyxiNrQEDawMDMEJ+KISMXkpEKFC1NLEpVKMrPh0pmFgNlAM6KZkk=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp9</Name>
+			<Path>.</Path>
+			<FullName>./Comp9</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "9"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0040951</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[9 is 3]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "9"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1OwVCjJV0hKVTDlcsYpZ6xnglfWwMjY1Bi/CiCwxKdiUMmFZKQCRUsTi1IVivLzoZKZxUAZAADwZyY=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp5</Name>
+			<Path>.</Path>
+			<FullName>./Comp5</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0040465</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[5 is 2.236]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "5"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwVSjJV0hKVTDmcsYpZ6RnDAJ4VRgZWxgSUGBmYD6sVIRkpALlShOLUhWK8vOhSjKL4fIAuKZv4w==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp7</Name>
+			<Path>.</Path>
+			<FullName>./Comp7</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "7"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0052355</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[7 is 2.645]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "7"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwVyjJV0hKVTDhcsYpZ6RnYW6KV97M1MTCEr8KE1Nzc4IqCNgyqFSEZKQC5UoTi1IVivLzoUoyi+HyAL6VcCs=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp25</Name>
+			<Path>.</Path>
+			<FullName>./Comp25</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0050226</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[25 is 5]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwMlUoyVdISlUwNOZyxi1rrmdiZmhqgk+JqZ6JgZkBXlNM9QwMTY1MCSgBAiO8SgZEMiQjFShcmliUqlCUnw+TzSwGSgEABxhrWQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp-25</Name>
+			<Path>.</Path>
+			<FullName>./Comp-25</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "-25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0043272</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[-25 is (-nan|nan|0)]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "-25"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The square root of -25 is 0
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Comp0.0001</Name>
+			<Path>.</Path>
+			<FullName>./Comp0.0001</FullName>
+			<FullCommandLine>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "0.0001"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0055618</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found. Regex=[0.0001 is 0.01]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"D:\0 - Documents\test\c++test\cmake test3\CMake\Help\guide\tutorial\Step6\build\Debug\Tutorial.exe" "0.0001"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNzzEOgzAMheGdU/gE1bNDEnau0AsUKS0M4DaE+9cSCxsef71veaOu36Mt24f2X22kb8IDAFNTmopFtIrdeMckgsXhDEmSe4cUENA7YJCAwQM5Z/DggZxydHwB22d4zrAlsgd2z7nYerxqoap6Rct+ij99LXyL====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 13 14:57 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndTestTime>1726210658</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

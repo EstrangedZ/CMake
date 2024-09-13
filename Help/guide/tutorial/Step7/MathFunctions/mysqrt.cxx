@@ -1,5 +1,6 @@
 #include "mysqrt.h"
 
+#include <cmath>
 #include <iostream>
 
 namespace mathfunctions {
@@ -16,9 +17,11 @@ double mysqrt(double x)
   //// std::cout << "Computing sqrt of " << x << " to be " << result
   ////        << " using log and exp" << std::endl;
   // else, use the existing logic.
-
-  // Hint: Don't forget the #endif before returning the result!
-
+#if defined(HAVE_LOG) && defined(HAVE_EXP)
+  double result = std::exp(std::log(x) * 0.5);
+  std::cout << "Computing sqrt of " << x << " to be " << result
+            << " using log and exp" << std::endl;
+#else
   double result = x;
 
   // do ten iterations
@@ -30,7 +33,8 @@ double mysqrt(double x)
     result = result + 0.5 * delta / result;
     std::cout << "Computing sqrt of " << x << " to be " << result << std::endl;
   }
-
+#endif
+  // Hint: Don't forget the #endif before returning the result!
   return result;
 }
 }

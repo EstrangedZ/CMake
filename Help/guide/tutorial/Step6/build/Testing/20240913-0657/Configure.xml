@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20240913-0657-Experimental"
+	Name="DESKTOP-IG7UHQM"
+	Generator="ctest-3.30.3"
+	CompilerName="D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.41.34120.0"
+	OSName="Windows"
+	Hostname="DESKTOP-IG7UHQM"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="37371"
+	TotalPhysicalMemory="32507"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2995"
+	>
+	<Configure>
+		<StartDateTime>Sep 13 14:57 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartConfigureTime>1726210657</StartConfigureTime>
+		<ConfigureCommand>"D:/Program Files/CMake/bin/cmake.exe" "D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step6"</ConfigureCommand>
+		<Log>-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/0 - Documents/test/c++test/cmake test3/CMake/Help/guide/tutorial/Step6/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Sep 13 14:57 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndConfigureTime>1726210657</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

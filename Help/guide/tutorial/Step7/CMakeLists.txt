@@ -37,7 +37,7 @@ target_include_directories(Tutorial PUBLIC
 # add the install targets
 install(TARGETS Tutorial DESTINATION bin)
 install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
-  DESTINATION include
+  DESTINATION "include"
   )
 
 # enable testing

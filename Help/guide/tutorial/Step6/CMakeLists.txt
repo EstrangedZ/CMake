@@ -24,7 +24,7 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 add_subdirectory(MathFunctions)
 
 # add the executable
-add_executable(Tutorial tutorial.cxx)
+add_executable(Tutorial tutorial.cpp)
 
 target_link_libraries(Tutorial PUBLIC MathFunctions tutorial_compiler_flags)
 
@@ -35,14 +35,14 @@ target_include_directories(Tutorial PUBLIC
                            )
 
 # add the install targets
-install(TARGETS Tutorial DESTINATION bin)
+install(TARGETS Tutorial DESTINATION "bin")
 install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
-  DESTINATION include
+  DESTINATION "include"
   )
 
 # TODO 1: Replace enable_testing() with include(CTest)
 # enable testing
-enable_testing()
+include(CTest)
 
 # does the application run
 add_test(NAME Runs COMMAND Tutorial 25)
